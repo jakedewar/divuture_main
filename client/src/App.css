@@ -1,0 +1,52 @@
+body {
+  background-color: #0093e7;
+}
+.column {
+  padding: 10px;
+}
+
+.ui.red.button:focus, .ui.red.buttons .button:focus{
+  background-color: #db2828;
+}
+
+.form-container {
+  width: 400px;
+  margin:auto;
+}
+
+/* Menu Styling */
+
+#root > div.ui.massive.borderless.secondary.top.fixed.menu {
+  background-color: #0093e7;
+  opacity: 0.975;
+  padding: 20px;
+}
+
+.ui.secondary.menu a {
+  color: white;
+}
+
+.ui.secondary.menu .active.item {
+  color: white;
+  background: none;
+}
+
+#root > div.ui.massive.borderless.secondary.top.fixed.menu > a.active.item{
+  color: #6daedb;
+  background: none;
+  font-weight: 400;
+}
+
+#root > div.ui.massive.borderless.secondary.top.fixed.menu > div > div > i {
+  color: white;
+}
+
+/* Card Styling */
+
+#metaData {
+  float: right;
+}
+
+#goalCategoryTag{
+  float: right;
+}
