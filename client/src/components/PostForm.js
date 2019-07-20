@@ -69,7 +69,6 @@ const options = [
               value={values.dueDate}
               error={error ? true : false}
               />
-            <Dropdown className="button" text='Category' options={options} item />
             <CustomizeGoal />
             <Button floated="right" type="submit" color="green">
             Share

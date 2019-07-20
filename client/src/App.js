@@ -16,6 +16,7 @@ import SinglePost from './pages/SinglePost';
 import Goals from './pages/Goals';
 import EntryPage from './pages/EntryPage';
 import Discover from './pages/Discover';
+import Profile from './pages/Profile';
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
             <Route exact path='/goals' component={Goals} />
             <Route exact path='/discover' component={Discover} />
             <AuthRoute exact path='/login' component={Login} />
+            <Route exact path='/profile' component={Profile} />
             <AuthRoute exact path='/register' component={Register} />
             <Route exact path="/posts/:postId" component={SinglePost} />
           </Container>

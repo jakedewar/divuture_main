@@ -17,7 +17,7 @@ function PostCard({
     <Card className="card" fluid>
       <Card.Content>
       <div>
-        <Image size='mini' src='https://react.semantic-ui.com/images/avatar/large/molly.png' avatar />
+        <Image size='mini' as={Link} to="/profile" src='https://react.semantic-ui.com/images/avatar/large/molly.png' avatar />
         <Item.Meta id="metaData" as={Link} to={`/posts/${id}`}>
           {moment(createdAt).fromNow()}
         </Item.Meta>

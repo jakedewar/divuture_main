@@ -14,20 +14,20 @@ function Home() {
 
   return (
     <Grid>
-      <Grid.Column>
-        {loading ? (
-          <h1> Loading Posts...</h1>
-        ) : (
-          <Transition.Group>
-          { posts && posts.map((post) => (
-            <Grid.Column key={post.id}>
-              <PostCard post={post}/>
-            </Grid.Column>
-          ))}
-          </Transition.Group>
-        )}
-      </Grid.Column>
-  </Grid>
+        <Grid.Column>
+          {loading ? (
+            <h1> Loading Posts...</h1>
+          ) : (
+            <Transition.Group>
+            { posts && posts.map((post) => (
+              <Grid.Column key={post.id}>
+                <PostCard post={post}/>
+              </Grid.Column>
+            ))}
+            </Transition.Group>
+          )}
+        </Grid.Column>
+    </Grid>
 );
 }
 
